@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Argentina · Copa do Mundo 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">🇦🇷 <span>Argentina</span> 2026</div>
+  <ul class="nav-links">
+    <li><a href="#historia">História</a></li>
+    <li><a href="#jogadores">Jogadores</a></li>
+    <li><a href="#estrelas">Estrelas</a></li>
+    <li><a href="#estadios">Estádios</a></li>
+    <li><a href="#camisas">Camisas</a></li>
+    <li><a href="#copa2026">Copa 2026</a></li>
+    <li><a href="#curiosidades">Curiosidades</a></li>
+    <li><a href="#noticias">Equipe</a></li>
+
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-stripes"></div>
+  <div class="hero-content">
+    <span class="hero-flag">🇦🇷</span>
+    <p class="hero-eyebrow">Seleção Argentina · Copa do Mundo</p>
+    <h1>La <em>Albiceleste</em><br>É Campeã</h1>
+    <p class="hero-subtitle">1978 · 1986 · 2022 — Uma história de glória e paixão</p>
+    <div class="hero-titles">
+      <div class="titulo-chip"><small>Campeã</small>1978</div>
+      <div class="titulo-chip"><small>Campeã</small>1986</div>
+      <div class="titulo-chip"><small>Vice</small>1990</div>
+      <div class="titulo-chip"><small>Vice</small>2014</div>
+      <div class="titulo-chip"><small>Campeã</small>2022</div>
+    </div>
+  </div>
+</section>
+
+<section id="carrossel" style="padding:40px;text-align:center;">
+<h2>Galeria da Argentina</h2>
+<div class="carousel-container">
+<img id="carousel-img" src="lionelmessi.png" style="max-width:500px;width:100%;border-radius:12px;">
+</div>
+<script>
+const imagens=["lionelmessi.png","estrela_messi.jpeg","monumental.jpeg","mascotes2026.jpeg"];
+let i=0;
+setInterval(()=>{
+ i=(i+1)%imagens.length;
+ document.getElementById("carousel-img").src=imagens[i];
+},3000);
+</script>
+</section>
+
+<!-- HISTÓRIA -->
+<section id="historia">
+  <div class="section-label">Sobre a Seleção</div>
+  <h2 class="section-title">História da Argentina</h2>
+  <div class="section-divider"></div>
+
+  <div class="historia-grid">
+    <div class="historia-card">
+      <h3>🏛️ Fundação e Trajetória</h3>
+      <p>A Associação do Futebol Argentino (AFA) foi fundada em <strong>1893</strong>, tornando a Argentina uma das federações mais antigas do mundo. A Albiceleste estreou em Copas do Mundo em 1930, tornando-se peça fundamental do futebol sul-americano e mundial.</p>
+    </div>
+    <div class="historia-card">
+      <h3>🏆 Participações em Copas</h3>
+      <ul>
+        <li>Mais de 17 participações em Copas do Mundo</li>
+        <li>3 títulos mundiais: 1978, 1986 e 2022</li>
+        <li>5 finais disputadas</li>
+        <li>Uma das seleções mais tradicionais do planeta</li>
+        <li>País que gerou dois dos maiores da história: Maradona e Messi</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat-box"><div class="num">3</div><div class="desc">Títulos Mundiais</div></div>
+    <div class="stat-box"><div class="num">1893</div><div class="desc">Ano de Fundação</div></div>
+    <div class="stat-box"><div class="num">5</div><div class="desc">Finais Disputadas</div></div>
+    <div class="stat-box"><div class="num">17+</div><div class="desc">Copas Participadas</div></div>
+    <div class="stat-box"><div class="num">#3</div><div class="desc">FIFA Ranking</div></div>
+  </div>
+</section>
+
+<!-- JOGADORES -->
+<section id="jogadores">
+  <div class="section-label">Elenco 2026</div>
+  <h2 class="section-title">Cards de Jogadores</h2>
+  <div class="section-divider"></div>
+
+  <div class="jogadores-grid">
+
+    <!-- Goleiros -->
+    <div class="player-card" data-num="23">
+      <span class="player-pos">Goleiro</span>
+      <div class="player-name">Emiliano Martínez</div>
+      <img src="emilianomartínez.png" style="width: 262px; height: auto;" alt="emilianomartínez">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,95m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">32 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#23</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Aston Villa</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">0 gols</span></div>
+      </div>
+    </div>
+
+    <div class="player-card" data-num="12">
+      <span class="player-pos">Goleiro</span>
+      <div class="player-name">Franco Armani</div>
+      <img src="francoarmani.png" style="width: 262px; height: auto;" alt="francoarmani">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,87m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">38 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#12</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">River Plate</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">0 gols</span></div>
+      </div>
+    </div>
+
+    <!-- Zagueiros -->
+    <div class="player-card" data-num="4">
+      <span class="player-pos">Zagueiro</span>
+      <div class="player-name">Cristian Romero</div>
+      <img src="cristianromero.png" style="width: 262px; height: auto;" alt="cristianromero">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,86m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">26 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#4</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Tottenham</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">3 gols</span></div>
+      </div>
+    </div>
+
+    <div class="player-card" data-num="6">
+      <span class="player-pos">Zagueiro</span>
+      <div class="player-name">Lisandro Martínez</div>
+      <img src="lisandromartínez.png" style="width: 262px; height: auto;" alt="lisandromartínez">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,82m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">27 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#6</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Manchester United</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">2 gols</span></div>
+      </div>
+    </div>
+
+    <!-- Laterais -->
+    <div class="player-card" data-num="3">
+      <span class="player-pos">Lateral Esq.</span>
+      <div class="player-name">Nicolás Tagliafico</div>
+      <img src="nicolástagliafico.png" style="width: 262px; height: auto;" alt="nicolástagliafico">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,72m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">32 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#3</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Olympique Lyon</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">4 gols</span></div>
+      </div>
+    </div>
+
+    <div class="player-card" data-num="2">
+      <span class="player-pos">Lateral Dir.</span>
+      <div class="player-name">Gonzalo Montiel</div>
+      <img src="gonzalomontiel.png" style="width: 262px; height: auto;" alt="gonzalomontiel">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,76m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">27 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#2</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Sevilla</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">2 gols</span></div>
+      </div>
+    </div>
+
+    <!-- Meias -->
+    <div class="player-card" data-num="5">
+      <span class="player-pos">Volante</span>
+      <div class="player-name">Leandro Paredes</div>
+      <img src="leandroparedes.png" style="width: 262px; height: auto;" alt="leandroparedes">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,80m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">30 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#5</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Roma</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">5 gols</span></div>
+      </div>
+    </div>
+
+    <div class="player-card" data-num="8">
+      <span class="player-pos">Meia</span>
+      <div class="player-name">Rodrigo De Paul</div>
+      <img src="rodrigodepaul.png" style="width: 262px; height: auto;" alt="rodrigodepaul">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,80m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">30 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#8</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Atlético de Madrid</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">10 gols</span></div>
+      </div>
+    </div>
+
+    <div class="player-card" data-num="20">
+      <span class="player-pos">Meia Atacante</span>
+      <div class="player-name">Alexis Mac Allister</div>
+      <img src="alexismacallister.png" style="width: 262px; height: auto;" alt="alexismacallister">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,77m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">25 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#20</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Liverpool</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">9 gols</span></div>
+      </div>
+    </div>
+
+    <!-- Atacantes -->
+    <div class="player-card" data-num="10">
+      <span class="player-pos">Atacante</span>
+      <div class="player-name">Lionel Messi</div>
+      <img src="lionelmessi.png" style="width: 262px; height: auto;" alt="lionelmessi">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,70m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">37 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#10</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Inter Miami</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">109 gols ⭐</span></div>
+      </div>
+    </div>
+
+    <div class="player-card" data-num="9">
+      <span class="player-pos">Atacante</span>
+      <div class="player-name">Julián Álvarez</div>
+      <img src="julianalvarez.png" style="width: 262px; height: auto;" alt="julianalvarez">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,70m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">24 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#9</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Atlético de Madrid</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">24 gols</span></div>
+      </div>
+    </div>
+
+    <div class="player-card" data-num="11">
+      <span class="player-pos">Ponta Esq.</span>
+      <div class="player-name">Ángel Di María</div>
+      <img src="angeldimaria.png" style="width: 262px; height: auto;" alt="angeldimaria">
+      <div class="player-info">
+        <div class="player-info-item"><span class="label">Altura</span><span class="value">1,78m</span></div>
+        <div class="player-info-item"><span class="label">Idade</span><span class="value">36 anos</span></div>
+        <div class="player-info-item"><span class="label">Camisa</span><span class="value">#11</span></div>
+        <div class="player-info-item"><span class="label">Clube</span><span class="value">Benfica</span></div>
+        <div class="player-info-item player-goals"><span class="label">Gols pela Seleção</span><span class="value">31 gols</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ESTRELAS -->
+<section id="estrelas">
+  <div class="section-label">Ícones</div>
+  <h2 class="section-title">Estrelas do Futebol Argentino</h2>
+  <div class="section-divider"></div>
+
+  <div class="estrelas-grid">
+
+    <div class="estrela-card">
+      <div class="estrela-header">
+        <img src="estrela_messi.jpeg" style="width: 262px; height: 300px;" alt="messi">
+        <h3>Lionel Messi</h3>
+      </div>
+      <div class="estrela-body">
+        <p>Considerado por muitos o maior jogador de todos os tempos, Messi nasceu em Rosário em 1987. Com 109 gols pela Albiceleste, liderou a Argentina ao título mundial do Qatar 2022 após uma trajetória épica. Seu drible, visão de jogo e técnica são incomparáveis.</p>
+        <div class="tag-list">
+          <span class="tag">🏆 Copa 2022</span>
+          <span class="tag">8× Bola de Ouro</span>
+          <span class="tag">109 Gols</span>
+          <span class="tag">Inter Miami</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="estrela-card">
+      <div class="estrela-header">
+        <img src="estrela_maradona.jpg" style="width: 262px; height: 300px;" alt="maradona">
+        <h3>Diego Maradona</h3>
+      </div>
+      <div class="estrela-body">
+        <p>A maior figura da história do futebol argentino. Maradona liderou a Argentina ao tetracampeonato de 1986 no México com performances lendárias, incluindo o gol do século contra a Inglaterra. Sua habilidade com a bola era sobrenatural.</p>
+        <div class="tag-list">
+          <span class="tag">🏆 Copa 1986</span>
+          <span class="tag">Gol do Século</span>
+          <span class="tag">Ídolo Eterno</span>
+          <span class="tag">Napoli</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="estrela-card">
+      <div class="estrela-header">
+        <img src="estrela_angeldimaria.jpeg" style="width: 262px; height: 300px;" alt="angeldimaria">
+        <h3>Ángel Di María</h3>
+      </div>
+      <div class="estrela-body">
+        <p>El Fideo foi fundamental no título de 2022, marcando o gol no final da Copa, e também na Copa América 2021. Extremo veloz com excepcional capacidade de passe e finalização, Di María é um dos mais completos de sua geração.</p>
+        <div class="tag-list">
+          <span class="tag">🏆 Copa 2022</span>
+          <span class="tag">31 Gols</span>
+          <span class="tag">Copa América</span>
+          <span class="tag">Benfica</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="estrela-card">
+      <div class="estrela-header">
+        <img src="estrela_batistuta.jpeg" style="width: 262px; height: 300px;" alt="batistuta">
+        <h3>Gabriel Batistuta</h3>
+      </div>
+      <div class="estrela-body">
+        <p>Batigol foi o maior artilheiro da Argentina em Copas do Mundo por muitos anos. Com um chute devastador e um instinto de gol incrível, Batistuta é um dos mais lembrados centroavantes da história do futebol mundial.</p>
+        <div class="tag-list">
+          <span class="tag">54 Gols</span>
+          <span class="tag">Artilheiro</span>
+          <span class="tag">Fiorentina</span>
+          <span class="tag">Lenda</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="estrela-card">
+      <div class="estrela-header">
+        <img src="estrela_riquelme.jpeg" style="width: 262px; height: 300px;" alt="riquelme">
+        <h3>Juan Román Riquelme</h3>
+      </div>
+      <div class="estrela-body">
+        <p>O maestro do meio-campo argentino. Riquelme era um jogador fora de época, com uma visão de jogo e toque de bola raros. Ídolo absoluto do Boca Juniors, hoje comanda o clube como presidente e mantém seu legado histórico.</p>
+        <div class="tag-list">
+          <span class="tag">Campeão Copa Libertadores</span>
+          <span class="tag">Boca Juniors</span>
+          <span class="tag">Maestro</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ESTÁDIOS -->
+<section id="estadios">
+  <div class="section-label">Infraestrutura</div>
+  <h2 class="section-title">Estádios da Argentina</h2>
+  <div class="section-divider"></div>
+
+  <div class="estadios-grid">
+
+    <div class="estadio-card">
+      <div class="estadio-top"><p style="font-size: 26px;">La Bombonera</p></div>
+      <div class="estadio-body">
+        <img src="labombonera.jpeg" style="width: 330px; height: auto;" alt="labombonera">
+        <div class="estadio-meta">
+          <div class="meta-item"><strong>Capacidade</strong>54.000</div>
+          <div class="meta-item"><strong>Localização</strong>Buenos Aires</div>
+        </div>
+        <p>Casa do Boca Juniors desde 1940, La Bombonera é um dos estádios mais atmosféricos do mundo. As vibrações da torcida são tão intensas que o campo literalmente treme durante os jogos. Ídolos como Maradona e Riquelme elevaram sua lenda.</p>
+      </div>
+    </div>
+
+    <div class="estadio-card">
+      <div class="estadio-top"><p style="font-size: 26px;">Monumental de Núñez</p></div>
+      <div class="estadio-body">
+        <img src="monumental.jpeg" style="width: 330px; height: auto;" alt="monumental">
+        <div class="estadio-meta">
+          <div class="meta-item"><strong>Capacidade</strong>84.000</div>
+          <div class="meta-item"><strong>Localização</strong>Buenos Aires</div>
+        </div>
+        <p>O maior estádio da Argentina e da América do Sul. Casa do River Plate, sediou a final da Copa do Mundo de 1978 e inúmeros jogos históricos da Seleção Argentina. É o estádio oficial da Albiceleste para jogos em casa.</p>
+      </div>
+    </div>
+
+    <div class="estadio-card">
+      <div class="estadio-top"><p style="font-size: 26px;">Estádio Mario Kempes</p></div>
+      <div class="estadio-body">
+        <img src="mariokempes.jpeg" style="width: 330px; height: 188px;" alt="mariokempes">
+        <div class="estadio-meta">
+          <div class="meta-item"><strong>Capacidade</strong>57.000</div>
+          <div class="meta-item"><strong>Localização</strong>Córdoba</div>
+        </div>
+        <p>Nomeado em honra ao herói da Copa de 1978, Mario Kempes. Localizado em Córdoba, é um dos principais estádios do interior argentino e recebe partidas de seleção e competições internacionais com frequência.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CAMISAS -->
+<section id="camisas">
+  <div class="section-label">Loja Oficial</div>
+  <h2 class="section-title">Comprar Camisas</h2>
+  <div class="section-divider"></div>
+
+  <div class="camisas-grid">
+
+    <div class="camisa-card">
+      <div class="camisa-body">
+        <img src="camisatitulas - Editado.png" style="width: 240px; height: auto;" alt="camisatitular">
+        <h3>Camisa Titular 2026</h3>
+        <p class="camisa-preco">R$ 399,90</p>
+        <button class="btn-comprar">🛒 Comprar</button>
+      </div>
+    </div>
+
+    <div class="camisa-card">
+      <div class="camisa-body">
+        <img src="camisareserva - Editado.png" style="width: 240px; height: auto;" alt="camisareserva">
+        <h3>Camisa Reserva 2026</h3>
+        <p class="camisa-preco">R$ 389,90</p>
+        <button class="btn-comprar">🛒 Comprar</button>
+      </div>
+    </div>
+
+    <div class="camisa-card">
+      <div class="camisa-body">
+        <img src="camisagoleiro - Editado.png" style="width: 240px; height: auto;" alt="camisagoleiro">
+        <h3>Camisa Goleiro 2026</h3>
+        <p class="camisa-preco">R$ 379,90</p>
+        <button class="btn-comprar">🛒 Comprar</button>
+      </div>
+    </div>
+
+    <div class="camisa-card">
+      <div class="camisa-body">
+        <img src="camisamessi2026 - Editado.png" style="width: 240px; height: auto;" alt="camisamessi2026">
+        <h3>Camisa Messi #10</h3>
+        <p class="camisa-preco">R$ 449,90</p>
+        <button class="btn-comprar">🛒 Comprar</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- COPA 2026 -->
+<section id="copa2026">
+  <div class="section-label">O Grande Evento</div>
+  <h2 class="section-title">Copa do Mundo 2026</h2>
+  <div class="section-divider"></div>
+
+  <div class="sedes-row">
+    <div class="sede-chip"><span class="flag">🇺🇸</span><span class="name">Estados Unidos</span></div>
+    <div class="sede-chip"><span class="flag">🇨🇦</span><span class="name">Canadá</span></div>
+    <div class="sede-chip"><span class="flag">🇲🇽</span><span class="name">México</span></div>
+  </div>
+
+  <div class="copa-info-grid" style="margin-top: 2rem;">
+    <div class="copa-bloco">
+      <h3>📋 Formato Novo</h3>
+      <ul>
+        <li>48 seleções participantes (antes eram 32)</li>
+        <li>Grupos de 3 equipes</li>
+        <li>Mais jogos e maior abrangência global</li>
+        <li>16 cidades-sede entre os 3 países</li>
+        <li>Final prevista para julho de 2026</li>
+      </ul>
+    </div>
+    <div class="copa-bloco">
+      <h3>🇦🇷 Expectativas Argentina</h3>
+      <ul>
+        <li>Atual campeã mundial buscando o tetra</li>
+        <li>Messi pode disputar sua última Copa</li>
+        <li>Geração jovem liderada por Julián Álvarez</li>
+        <li>Mac Allister como novo maestro do meio</li>
+        <li>Favorita ao lado de Brasil, França e Inglaterra</li>
+      </ul>
+    </div>
+    <div class="copa-bloco">
+      <h3>👥 Possíveis Convocados</h3>
+      <ul>
+        <li>Lionel Messi (Inter Miami)</li>
+        <li>Julián Álvarez (Atlético Madrid)</li>
+        <li>Alexis Mac Allister (Liverpool)</li>
+        <li>Rodrigo De Paul (Atlético Madrid)</li>
+        <li>Cristian Romero (Tottenham)</li>
+        <li>Emiliano Martínez (Aston Villa)</li>
+      </ul>
+    </div>
+    <div class="copa-bloco">
+      <h3>📊 Estatísticas Históricas</h3>
+      <ul>
+        <li>Total de jogos em Copas: +80 partidas</li>
+        <li>Vitórias: aproximadamente 47</li>
+        <li>Empates: aproximadamente 14</li>
+        <li>Derrotas: aproximadamente 25</li>
+        <li>Gols marcados: mais de 140</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- MASCOTES -->
+<section id="mascotes">
+  <div class="section-label">Identidade</div>
+  <h2 class="section-title">Mascotes</h2>
+  <div class="section-divider"></div>
+
+  <div class="mascotes-flex">
+    <div class="mascote-card">
+      <img src="mascote_maple - Editado.png" style="width: 200px; height: 200px;" alt="mascotemaple">
+      <p></p>
+      <h3>Maple</h3>
+      <p>Representando o Candá, o personagem é um alce que atua como goleiro e veste o uniforme vermelho da seleção canadense. Seu nome refere-se à folha de bordo, símbolo nacional do país.</p>
+    </div>
+    <div class="mascote-card">
+      <img src="mascote_zayu - Editado.png" style="width: 200px; height: 200px;" alt="mascotezayu">
+      <p></p>
+      <h3>Zayu</h3>
+      <p>Representando o México, o personagem é uma onça-pintada (ou jaguar) que atua como atacante na simbologia do torneio, vestindo o uniforme verde da seleção mexicana.</p>
+    </div>
+    <div class="mascote-card">
+      <img src="mascote_clutch - Editado.png" style="width: 200px; height: 200px;" alt="mascoteclutch">
+      <p></p>
+      <h3>Clutch</h3>
+      <p>Representando os Estados Unidos, o personagem é a águia-careca, ele atua como meio-campista, veste o uniforme azul e seu nome refere-se à gíria esportiva para atletas decisivos em momentos cruciais.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BOLAS -->
+<section id="bolas">
+  <div class="section-label">Equipamento</div>
+  <h2 class="section-title">Bolas de Futebol</h2>
+  <div class="section-divider"></div>
+
+  <div class="bolas-grid">
+    <div class="bola-card">
+      <img src="bola_2026 - Editado.png" style="width: 150px; height: 150px;" alt="bola2026">
+      <h3>Bola Copa 2026</h3>
+      <div class="copa-ano">Copa do Mundo 2026 · Adidas</div>
+      <div class="preco-bola">R$ 899,90</div>
+      <button class="btn-comprar">🛒 Comprar</button>
+    </div>
+    <div class="bola-card">
+      <img src="bola_alrihla - Editado.png" style="width: 150px; height: 150px;" alt="bolaalrihla">
+      <h3>Al Rihla</h3>
+      <div class="copa-ano">Copa do Mundo 2022 · Adidas</div>
+      <div class="preco-bola">R$ 699,90</div>
+      <button class="btn-comprar">🛒 Comprar</button>
+    </div>
+    <div class="bola-card">
+      <img src="bola_brazuca - Editado.png" style="width: 150px; height: 150px;" alt="bolabrasuca">
+      <h3>Brazuca</h3>
+      <div class="copa-ano">Copa do Mundo 2014 · Adidas</div>
+      <div class="preco-bola">R$ 349,90</div>
+      <button class="btn-comprar">🛒 Comprar</button>
+    </div>
+    <div class="bola-card">
+      <img src="bola_jabulani - Editado.png" style="width: 150px; height: 150px;" alt="bolajabulani">
+      <h3>Jabulani</h3>
+      <div class="copa-ano">Copa do Mundo 2010 · Adidas</div>
+      <div class="preco-bola">R$ 299,90</div>
+      <button class="btn-comprar">🛒 Comprar</button>
+    </div>
+  </div>
+</section>
+
+<!-- CURIOSIDADES -->
+<section id="curiosidades">
+  <div class="section-label">Sabia que...</div>
+  <h2 class="section-title">Curiosidades</h2>
+  <div class="section-divider"></div>
+      <div class="curio-card">
+      <h4>Gastronomia da Argentina</h4>
+            <p>A gastronomia argentina é reconhecida mundialmente pela qualidade de suas carnes e pela forte influência das culturas espanhola e italiana.</p><br/>
+      </div>
+
+  <div class="curio-grid">
+
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="image1.jpg" style="width: 230px; height: 180px;" alt="rivalidadecombr">
+        <h4>Asado</h4>
+        <p>O asado é o prato mais tradicional da Argentina. Consiste em diversos cortes de carne bovina preparados na churrasqueira ou na parrilla (grelha argentina). É um importante evento social para famílias e amigos.</p>
+      </div>
+    </div>
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="image2.jpg" style="width: 230px; height: 180px;" alt="tradicaomundial">
+        <h4>Empanadas</h4>
+        <p>As empanadas argentinas são massas recheadas que podem conter carne, queijo, frango, cebola, milho ou outros ingredientes. Cada região possui receitas próprias.</p>
+      </div>
+    </div>
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="image3.jpg" style="width: 230px; height: 180px;" alt="torcidaapaixonada">
+        <h4>Dulce de Leche</h4>
+        <p>O doce de leite é um dos símbolos gastronômicos do país. É utilizado em sobremesas, bolos, sorvetes e nos famosos alfajores.</p>
+      </div>
+    </div>
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="image4.jpg" style="width: 230px; height: 180px;" alt="estilodejogo">
+        <h4>Alfajor</h4>
+        <p>O alfajor é um doce formado por duas camadas de biscoito recheadas com doce de leite e geralmente cobertas com chocolate ou açúcar.</p>
+      </div>
+    </div>
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="image5.jpg" style="width: 230px; height: 180px;" alt="importanciaglobal">
+        <h4>Mate</h4>
+        <p>O Mate é a bebida mais tradicional dos argentinos. Consumido diariamente, representa amizade, convivência e tradição cultural.</p>
+      </div>
+    </div>
+  </div><br/><br/><br/> <!--Encerra a parte da culinária -->
+<!--Inicia a parte do Turismo -->
+
+<div class="curio-card">
+      <h4>Turismo na Argentina</h4>
+            <p>A Argentina é o segundo maior país da América do Sul e possui uma enorme variedade de atrações turísticas, desde montanhas e geleiras até grandes centros urbanos.</p><br/>
+      </div>
+
+  <div class="curio-grid">
+
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="turismo1.jpg" style="width: 230px; height: 180px;" alt="rivalidadecombr">
+        <h4>Buenos Aires</h4>
+        <p>A capital Buenos Aires é conhecida pela arquitetura europeia, pelo tango, pelos cafés históricos e pela intensa vida cultural.</p>
+      </div>
+    </div>
+
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="turismo2.jpg" style="width: 230px; height: 180px;" alt="rivalidadecombr">
+        <h4>Cataratas do Iguaçu</h4>
+        <p>As Cataratas do Iguaçu são uma das Sete Maravilhas Naturais do Mundo e atraem milhões de visitantes todos os anos.</p>
+      </div>
+    </div>
+
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="turismo3.jpg" style="width: 230px; height: 180px;" alt="rivalidadecombr">
+        <h4>Glaciar Perito Moreno</h4>
+        <p>O Glaciar Perito Moreno é uma das geleiras mais impressionantes do planeta, localizado na região da Patagônia.</p>
+      </div>
+    </div>
+
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="turismo4.jpg" style="width: 230px; height: 180px;" alt="rivalidadecombr">
+        <h4>Patagônia</h4>
+        <p>A Patagônia oferece paisagens naturais espetaculares, montanhas, lagos cristalinos e oportunidades para trekking e ecoturismo.</p>
+      </div>
+    </div>
+
+    <div class="curio-item">
+      <div class="curio-text">
+        <img src="turismo5.jpg" style="width: 230px; height: 180px;" alt="rivalidadecombr">
+        <h4>Mendoza</h4>
+        <p>A cidade de Mendoza é famosa pela produção de vinhos, especialmente o Malbec, e pelo turismo enológico.</p>
+      </div>
+    </div>
+</div>    
+
+</section>
+
+<!-- NOTÍCIAS -->
+<section id="noticias">
+
+  <h2 class="section-title">Equipe Desenvolvedora</h2>
+  <div class="section-divider"></div>
+
+  <div class="noticias-grid">
+      <div class="noticia-card">
+      <div class="bola-card">
+        <img src="GISELY.png" style="width: 150px; height: 150px;" alt="bolajabulani">
+        <h3>GISELY MACHADO DA SILVA</h3>
+        <p></p>
+      </div>
+      </div>
+      <div class="noticia-card">
+      <div class="bola-card">
+        <img src="RODRIGO.png" style="width: 150px; height: 150px;" alt="bolajabulani">
+        <h3>RODRIGO FERNANDES HOLANDA</h3>
+        <p></p>
+      </div>
+      </div>
+      <div class="noticia-card">
+      <div class="bola-card">
+        <img src="LEITE.png" style="width: 150px; height: 150px;" alt="bolajabulani">
+        <h3>RODRIGO DA SILVA LEITE</h3>
+        <p></p>
+      </div>
+      </div>
+      <div class="noticia-card">
+      <div class="bola-card">
+        <img src="ANDRESA.png" style="width: 150px; height: 150px;" alt="bolajabulani">
+        <h3>ANDRESA DE ARAUJO SALES</h3>
+        <p></p>
+      </div>
+      </div>
+      <div class="noticia-card">
+      <div class="bola-card">
+        <img src="ITHALO.png" style="width: 150px; height: 150px;" alt="bolajabulani">
+        <h3>ITHALO FELIPE DE SÁ SANTOS</h3>
+        <p></p>
+      </div>
+      </div>
+            <div class="noticia-card">
+      <div class="bola-card">
+        <img src="JOAO.png" style="width: 150px; height: 150px;" alt="bolajabulani">
+        <h3>JOÃO PEDRO LEAL GOMES</h3>
+        <p></p>
+      </div>
+      </div>
+
+
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="flag-lg">🇦🇷</div>
+  <h2>La Albiceleste</h2>
+  <p style="color:rgba(255,255,255,0.6); font-size:1rem; margin-top:0.5rem;">Copa do Mundo 2026 · EUA · Canadá · México</p>
+  <p>© 2026 Argentina Copa do Mundo · Conteúdo informativo e não oficial</p>
+</footer>
+
+</body>
+</html>
